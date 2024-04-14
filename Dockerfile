@@ -21,8 +21,8 @@ RUN chmod +x /startapp.sh
 
 
 COPY 1.tar.gz.partaaa /config/1.tar.gz.partaaa
-COPY 1.tar.gz.partaab /config/1.tar.gz.partaab
-COPY 1.tar.gz.partaac /config/1.tar.gz.partaac
+#COPY 1.tar.gz.partaab /config/1.tar.gz.partaab
+#COPY 1.tar.gz.partaac /config/1.tar.gz.partaac
 
 RUN cat /config/1.tar.gz.partaa* >/config/1.tar.gz
 #RUN mkdir /config/1
