@@ -33,3 +33,4 @@ RUN cd /config && tar -xf /config/1.tar.gz
 
 ENV DISPLAY_WIDTH=1024
 ENV DISPLAY_HEIGHT=768
+EXPOSE 80
